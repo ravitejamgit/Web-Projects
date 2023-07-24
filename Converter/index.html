@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Converter</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./javascript.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <fieldset class="headings">
+                <h2>Base Converter</h2>
+                <p>#Convert value of one base to another base.</p>
+            </fieldset>
+            <fieldset class="card">
+                <label for="enterValue">Enter Value : <input type="number" name="data" id="data"></label>
+                <label for="baseValue">Base Value : <input type="number" name="baseValue" id="baseValue"></label>
+                <input type="text" name="solution" id="solution" style="display: none;" disabled>
+                <label for="convertButton"><input type="button" value="convert" name="convertButton" id="convertButton" onclick="convert()"></label>
+            </fieldset>
+        </div>
+    </body>
+</html>
