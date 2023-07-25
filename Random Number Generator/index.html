@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random Number Generator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <Label>
+                Min Value : <input type="number" id="min-value">
+            </Label>
+            <Label>
+                Max Value : <input type="number" id="max-value">
+            </Label>
+            <input class = "answer" type="number" id="answer" disabled>
+            <div class="btn-class">
+                <input type="button" id="sub-btn" value="Get" onclick="getRandom()">
+                <input class = "clr-btn" type="button" id="clr-btn" value="clear" onclick="clearAll()">
+            </div>
+        </div>
+    </body>
+</html>
