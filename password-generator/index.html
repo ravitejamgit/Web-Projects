@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="title">
+        <h4>Generate Random Password</h4>
+    </div>
+    <div class="container">
+        <section>
+            <div class="result">
+                <input type="text" placeholder="minimum length is 6" id = "generatedPassword" readonly>
+                <button id="copyBtn" class="copyBtn" onclick="copy()">Copy</button> 
+            </div>
+            <div class="fields">
+                <div class="property">
+                    <label for="length">Length</label>
+                    <input type="number" value="6" min="6" max="20" id="length">
+                </div>
+                <div class="property">
+                    <label for="uppercase">Uppercase Alphabets</label>
+                    <input type="checkbox" id="uppercase">
+                </div>
+                <div class="property">
+                    <label for="lowercase">Lowercase Alphabets</label>
+                    <input type="checkbox" id="lowercase">
+                </div>
+                <div class="property">
+                    <label for="digits">Digits</label>
+                    <input type="checkbox" id="digits">
+                </div>
+                <div class="property">
+                    <label for="specialsymbols">Special Symbols</label>
+                    <input type="checkbox" id="specialsymbols">
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="generatePassword()">Generate Password</button>
+                <button onclick="reset()" class="reset">Reset</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

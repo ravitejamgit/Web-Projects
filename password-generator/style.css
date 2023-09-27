@@ -1,0 +1,164 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans';
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+/* Heading */
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1px;
+    font-size: 20px;
+}
+
+/* Place holder for input box */
+input[type= "text"]::placeholder {
+    color: gainsboro;
+}
+
+.title {
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 10rem auto;
+    margin-bottom: 5px;
+    width: 480px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px #898989;
+}
+
+input[type="text"], [type = "button"]{
+    border-radius: 6px;
+    margin: 1px;
+    border: none;
+}
+
+
+/* Main container */
+.container{
+    margin: 1rem auto;
+    height: 360px;
+    width: 500px;
+    background-color: #efefef;
+    padding: 5px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px #898989;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* Result input field */
+.result{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    /* padding: 6px; */
+    border-radius: 10px;
+}
+
+/* Formating input box */
+.result input[type="text"]
+{
+    font-family: serif;
+    width: 100%;
+    height: 30px;
+    padding: 6px;
+    font-size: 25px;
+    outline: none;
+    text-align: center;
+    box-shadow: 1px 1px 5px #898989;
+}
+
+/* Copy button input */
+.copyBtn {
+    background-color: rgb(6, 168, 168);
+    font-size: small;
+    height: 2rem;
+    margin-top: 6px;
+    color: white;
+    width: 50px;
+    margin-left: 6px;
+    box-shadow: 1px 1px 5px #898989;
+}
+
+
+.fields{
+    border-radius: 6px;
+    padding: 2px;
+    margin: auto;
+    width: 65%;
+    background-color: rgb(228, 231, 228);
+    margin-bottom: 10px;
+}
+
+
+.property{
+    margin: 14px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    width: 35%;
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+/* Button on click effect */
+button:active {
+    transform: translate(0.1em, 0.1em);
+    box-shadow: 0.05em 0.05em #b3bbe7;
+}
+
+.fields input[type="number"]
+{
+    outline: none;
+    width: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    width: 16px;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-color: red;
+    width: 15%;
+    color: black;
+}
+
+.reset:hover
+{
+    background-color: rgb(247, 60, 60);
+    color: white;
+    transition: all 0.452s;
+}
+
